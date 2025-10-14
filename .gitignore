@@ -1,0 +1,68 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.mat
+slprj/
+*.autosave
+
+# Simulink
+*.slxc
+*.slx.original
+*.slx.autosave
+
+# Code generation
+codegen/
+*.tmw
+
+# Build artifacts
+*.o
+*.obj
+*.exe
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Log files
+*.log
+
+# Large data files (optional - uncomment if needed)
+# *.txt
+# *.dat
+
+# Compiled MEX files
+*.mexa64
+*.mexw64
+*.mexmaci64
+
+# RoboDK files
+*.rdk
+
+# CFD simulation outputs (large files)
+# Uncomment if you don't want to track these
+# *.foam
+# *.OpenFOAM
+# */0/
+# */constant/
+# */system/
+
+# Results that are too large
+# results/
+# output/
