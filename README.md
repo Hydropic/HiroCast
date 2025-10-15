@@ -3,7 +3,7 @@
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2021a+-orange.svg)](https://www.mathworks.com/products/matlab.html)
 [![CFD](https://img.shields.io/badge/CFD-OpenFOAM-blue.svg)](https://www.openfoam.com/)
 
-## 🎯 Project Overview
+## Project Overview
 
 HiRoCast (High-Speed Robot Casting) is an advanced robotics optimization system designed to solve a critical industrial challenge: **transporting hot liquid materials from point A to point B as quickly as possible without spillage**. This project combines computational fluid dynamics (CFD), optimal control theory, and robotic path planning to achieve time-optimal trajectories while preventing liquid sloshing.
 
@@ -14,7 +14,7 @@ Traditional robotic liquid transport faces a fundamental trade-off:
 
 This project solves this problem through intelligent trajectory optimization that accounts for fluid dynamics in real-time.
 
-## 🚀 Features
+## Features
 
 - **Optimal Control Algorithm**: Time-optimal trajectory generation using constrained nonlinear optimization (fmincon)
 - **CFD Integration**: Real-time fluid dynamics simulation to predict and prevent sloshing
@@ -48,7 +48,7 @@ The system was tested with various fluid mixtures to analyze sloshing behavior u
 | Spillage Risk | High | Minimal | **Safe operation** |
 | Path Smoothness | Poor | Optimal | **Continuous C³** |
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -79,7 +79,7 @@ The system was tested with various fluid mixtures to analyze sloshing behavior u
         └────────────────┘
 ```
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### Optimization Problem Formulation
 
@@ -132,7 +132,7 @@ HiRoCast/
 └── legacy/                       # Archive of old implementations
 ```
 
-## 🚦 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -203,7 +203,7 @@ This project demonstrates expertise in:
 - **Software Engineering**: Modular MATLAB architecture
 - **Industrial Automation**: Real robot deployment (KUKA KRL)
 
-## 📚 Documentation
+## Documentation
 
 For detailed technical documentation, see:
 - [Project Overview](docs/PROJECT_OVERVIEW.md) - Executive summary and impact
