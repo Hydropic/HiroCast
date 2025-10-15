@@ -24,7 +24,7 @@ This project solves this problem through intelligent trajectory optimization tha
 - **Validation Framework**: Comprehensive testing against physical constraints and fluid behavior
 - **KRL Code Generation**: Automatic generation of KUKA Robot Language code for deployment
 
-## 📊 Results
+## Results
 
 ### Simulation Results: Water-Glycerin Mixtures
 
